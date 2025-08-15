@@ -3,6 +3,9 @@
 #### Download update.zip
 [update.zip](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/update.zip){:target="_blank"}
 
+#### Panduan Radius
+Panduan implementasi Mikrotik Radius tersedia di [docs/radius-support.md](docs/radius-support.md).
+
 ### Changelog
 
 #### Update 06-30 2021 V3.20
