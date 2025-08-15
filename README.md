@@ -1,14 +1,39 @@
 ### MIKHMON V3
+
 #### Download update.zip
-[update.zip](https://laksa19.github.io/getdownloadlink.html?update.zip){:target="_blank"}
+[update.zip](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/download/update.zip){:target="_blank"}
+
 ### Changelog
+
+#### Update 06-30 2021 V3.20
+1. Perbaikan typo script profile ```on-login```.
+	- Silakan update user profile dari Mikhmon, dengan cara membuka tiap user profile, kemudian klik Save.
+
+#### Update 24-01 2021
+1. Added docker-compose.yml for test-lab. added mikrotik routeros image.
+	- git clone project
+	- open project folder in terminal
+	- run terminal command --> docker-compose up -d
+	- go to localhost:8081. write ip address 192.168.88.1. write password 12345. apply configuration.
+	- go to localhost:8080. user:mikhmon password:1234. add router. ip address 172.27.0.7, user:admin, password: 12345. write 'test' other inputs.last click save button
+	- for stop --> docker-compose down
+	
+#### Update 09-08 2020 V3.19
+1. Penambahan jumlah sisa voucher di "option comment" laman user list.
+
+#### Update 04-07 2020
+1. Added Dockerfile for test
+	- git clone project
+	- docker build --tag mikhmonv3 .
+	- docker run --rm -i -t -p 8080:80 --name="mkhmn1" mikhmonv3
+	- go to localhost:8080
 
 #### Update 08-16 2019 V3.18
 1. Penambahan harga jual. (Harga yang tampil di voucher)
 
-	*update user profile isi harga jual(selling price) dan update juga template vouchernya, silakan download di [website](https://laksa19.github.io/voucher){:target="_blank"}
+	*update user profile isi harga jual(selling price) dan update juga template vouchernya, silakan download di [website](https://laksa19.github.io/?mikhmon/v3/voucher)
 	
-2. Untuk pengguna Termux, uninstall Mikhmon kemudian install lagi. [panduan](https://laksa19.github.io/tutorial){:target="_blank"} 	
+2. Untuk pengguna Termux, uninstall Mikhmon kemudian install lagi. 
 
 #### Update 08-06 2019 V3.17
 1. Perbaikan live report.
